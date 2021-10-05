@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Alterando CSS</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+       <h2>Alterando o CSS através do JavaScript</h2>
+
+       <p id="abc">Texto para modificar CSS.</p>
+       
+        <button type="button" onclick="alterarCSS()">Alterar CSS</button>
+
+       <script>
+           function alterarCSS() {
+               document.getElementById("abc").style.fontSize = "40px"
+           }
+       </script>
+	</body>
+</html>
