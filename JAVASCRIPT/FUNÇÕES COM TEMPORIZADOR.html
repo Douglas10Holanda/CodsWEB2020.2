@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>FUNÇÕES COM TEMPORIZADOR</title>
+        <meta charset="utf-8">
+	</head>
+	<body>
+        <script>
+              function add(x,y) {
+                console.log("Entrou na Função add!!!");
+
+                var total = 0;
+                var numArgs = arguments.length
+
+                for (var i = 0; i<numArgs; i++){
+                    total += arguments[i];
+                }
+                console.log(total);
+                return total;
+            }
+
+            setTimeout(add,2000); // 2 segundos
+        </script>
+
+        <script>
+            function adicionar(x,y) {
+            console.log("Entrou na Função adicionar!!!");
+
+            var total = 0;
+            var numArgs = arguments.length
+
+            for (var i = 0; i<numArgs; i++){
+                total += arguments[i];
+            }
+            console.log(total);
+            clearInterval(temporizador);
+            return total;
+        }
+
+        var temporizador = setInterval(adicionar,4000); // 4 segundos
+
+
+        </script>
+	</body>
+</html>

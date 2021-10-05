@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JSON</title>
+        <meta charset="utf-8">
+	</head>
+	<body>
+        <script>
+            var carro = {
+                nome: "Ferrari",
+                detalhes:{
+                    cor: "vermelho",
+                    preço: "R$150.000"
+                }
+            }
+
+            // iterar entre objetos
+            for (var chave in carro){
+                console.log(chave + " --> " + carro[chave]);
+            }
+
+            //console.log(carro);
+        </script>
+
+	</body>
+</html>

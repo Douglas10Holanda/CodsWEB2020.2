@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Eventos</title>
+        <meta charset="utf-8">
+	</head>
+	<body onload="exibirAlerta()">
+        <script>
+            function exibirMsg() {
+                alert("Alerta exibido.");
+            }
+
+            function exibirAlerta() {
+                alert("A página foi carregada com sucesso!!!!!");
+            }
+
+            function exibirAlertaMudança() {
+                alert("Onchange acabou de ser ativado!!!!!");
+            }
+
+            function exibirData() {
+                document.getElementById("demo").innerHTML = Date();
+            }
+        </script>
+        
+        <input type="text" onchange="exibirAlertaMudança()" onmouseover="exibirMsg()">
+        <br>
+
+
+        <button onclick="exibirData()" onmouseover="exibirMsg()">Que horas são?</button>
+        <p id="demo"></p>
+	</body>
+</html>

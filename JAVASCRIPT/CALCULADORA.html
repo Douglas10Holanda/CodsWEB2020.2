@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calculadora</title>
+        <meta charset="utf-8">
+	</head>
+	<body>
+       <h2>Calculadora</h2>
+       <h3>Digite dois número e verifique a soma.</h3>
+
+       <form>
+           <input type="text" name="n1" id="n1">
+           <input type="text" name="n2" id="n2">
+           <button type="button" id="calcular">Calcular</button>
+       </form>
+
+       <p id="resultado">O resultado é: </p>
+
+       <script>
+        function calcular() {
+            res.textContent = parseFloat(n1.value) + parseFloat(n2.value)
+            console.log('calculo realizado')
+            return false;              
+        }
+    
+        var n1 = document.getElementById("n1")
+        var n2 = document.getElementById("n2")
+        var botao = document.getElementById("calcular")
+        var res = document.getElementById("resultado")
+    
+        botao.onclick = calcular
+
+
+        //exemplos de comentario JS
+
+        /* muitas
+        linhas 
+        de 
+        codigo*/
+        </script>
+	</body>
+</html>

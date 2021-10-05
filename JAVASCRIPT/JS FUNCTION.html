@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JS FUNCTION</title>
+        <meta charset="utf-8">
+	</head>
+	<body>
+        <script>
+            function adicionar(x,y) {
+                var total = x + y;
+                return total;
+            }
+            //Se nada for retornado, o valor de retorno será undefined
+
+            console.log(adicionar()); //irá retornar NaN
+            console.log(adicionar(2,3,4)); //ira somar e ira ignorar o numero 4
+            console.log(adicionar(2,5));
+        </script>
+
+        <script>
+            function add(x,y) {
+                var total = 0;
+                var numArgs = arguments.length
+
+                for (var i = 0; i<numArgs; i++){
+                    total += arguments[i];
+                }
+                return total;
+            }
+
+            console.log(add());
+            console.log(add(0,2));
+            console.log(add(1,1,1));
+            console.log(add(1,1,1,1));
+
+        </script>
+
+	</body>
+</html>

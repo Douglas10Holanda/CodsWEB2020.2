@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Alterando Imagem</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+        <p>Usar o JavaScript para alterar imagens.</p>
+        <p>Exemplo de lâmpada acesa e apagada</p>
+
+        <button type="button" onclick="desligarLamp()">Apagar Lampada</button>
+
+        <img id="lampada" src="IMG/lampOFF.png">
+
+        <button type="button" onclick="ligarLamp()">Acender Lampada</button>
+
+        <script>
+            function ligarLamp() {
+                document.getElementById("lampada").src = "IMG/lampON.png"                
+            }
+        </script>
+
+        <script>
+            function desligarLamp() {
+                document.getElementById("lampada").src = "IMG/lampOFF.png"
+            }
+        </script>
+        <br><br>
+
+        <p>Exemplo de Goku Base e Goku Sayajin</p>
+
+        <button type="button" onclick="base()">Goku Base</button>
+
+        <img id="goku" src="IMG/gokuBase.png" height="300" width="500">
+
+        <button type="button" onclick="sayajin()">Goku Sayajin</button>
+
+        <script>
+            function sayajin() {
+                document.getElementById("goku").src = "IMG/gokuSayajin.jpg"                 
+            }
+        </script>
+
+        <script>
+            function base() {
+                document.getElementById("goku").src = "IMG/gokuBase.png"
+            }
+        </script>
+
+
+	</body>
+</html>

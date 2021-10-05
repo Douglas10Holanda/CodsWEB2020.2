@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Atualizando valor automaticamente</title>
+        <meta charset="utf-8">
+	</head>
+	<body>
+        <script>
+            function atualizarValor() {
+                var valor = document.getElementById("valor").value
+                var quantidade = document.getElementById("quantidade").value
+                var resultado = document.getElementById("resultado").value = 
+                parseFloat(valor) * parseFloat(quantidade);
+            }
+
+        </script>
+
+        Valor do Item: <input type="text" id="valor" onchange="atualizarValor()">
+        Quantidade: <input type="text" id="quantidade" onchange="atualizarValor()">
+        <br><br><br>
+        Resultado: <input type="text" id="resultado" disabled>
+
+	</body>
+</html>

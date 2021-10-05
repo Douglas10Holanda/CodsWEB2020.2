@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>PROTOTIPO</title>
+        <meta charset="utf-8">
+	</head>
+	<body>
+        <script>
+            var Pessoa = function(nome, email){
+                this.nome = nome;
+                //Verifica se o email foi preenchido
+                if (email) {
+                    this.email = email;
+                }
+            };
+
+            Pessoa.prototype.email = "contato@ufc.br"
+
+            var douglas = new Pessoa("Douglas");
+            console.log(douglas.email); // contato@ufc.br
+            
+            var priscila = new Pessoa("Priscila", "priholanda@gmail.com")
+            console.log(priscila.email); // priholanda@gmail.com
+
+            Pessoa.prototype.fala = function () {
+                console.log("Olá, meu nome é " + this.nome + " e o meu email é " + this.email);
+            };
+            console.log(douglas.fala());
+
+
+            Pessoa.prototype.anda = function () {
+                console.log(this.nome + " está andando...");
+            };
+            console.log(douglas.anda());
+
+        </script>
+	</body>
+</html>

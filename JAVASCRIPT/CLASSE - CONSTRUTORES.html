@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CLASSE - CONSTRUTORES</title>
+        <meta charset="utf-8">
+	</head>
+	<body>
+        <script>
+            function Pessoa(primeiroNome, segundoNome){
+                console.log("Criando nova Pessoa!!");
+                console.log(typeof(this));
+
+                this.nome = primeiroNome;
+                this.sobrenome = segundoNome;
+
+                this.nomeCompleto = function () {
+                    return this.nome + " " + this.sobrenome;
+                }
+                this.nomeInverso = function () {
+                    return this.sobrenome + " " + this.nome;
+                }
+            }
+
+            var douglas = new Pessoa("Douglas", "Holanda")
+
+            console.log(douglas);
+            console.log(douglas.nome);
+            console.log(douglas.sobrenome);
+            console.log(douglas.nomeCompleto());
+            console.log(douglas.nomeInverso());
+
+        </script>
+	</body>
+</html>

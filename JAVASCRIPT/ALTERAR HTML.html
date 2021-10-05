@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>AlterandoHTML</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+        <h2>O que posso fazer com JavaScript?</h2>
+        
+        <p id="meup">Texto puro em HTML para ser trocado.</p>
+    <button type="button" onclick='document.getElementById("meup").innerHTML = 
+    "Novo texto usando JavaScript!"'>Alterar Texto</button>
+
+    <br><br>
+    <h2>Exemplo com Função?</h2>
+        
+    <p id="abcd">Texto puro em HTML para ser trocado.</p>
+    <button type="button"
+        onclick="alterarTexto()">Alterar Texto</button>
+
+    <script>
+        function alterarTexto(){
+        document.getElementById("abcd").innerHTML = "Texto diferente em JavaScript!"
+        }
+    </script>
+
+	</body>
+</html>
