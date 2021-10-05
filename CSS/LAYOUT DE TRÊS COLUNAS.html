@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LAYOUT DE TRÊS COLUNAS</title>
+    <meta charset="utf-8">
+    <style>
+        div {
+            border: 1px solid black;
+        }
+
+        #container {
+            width: 600px;
+            margin: 0 auto;
+        }
+
+        #header {
+            height: 80px;
+            background: #DDD;
+        }
+
+        #left {
+            float: left;
+            width: 130px;
+            background: #666;
+        }
+
+        #content {
+            float: right;
+            width: 450px;
+        }
+
+        #principal {
+            float: left;
+            width: 340px;
+        }
+
+        #right {
+            float: right;
+            width: 100px;
+        }
+
+        #footer {
+            clear: both;
+            background: #DDD;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">AAAAA
+        <div id="header">BBBB</div>
+        <div id="left">CCCCC</div>
+        <div id="content">
+            <div id="principal">EEEEEE</div>
+            <div id="right">FFFFF</div>
+        </div>
+        <div id="footer">GGGGG</div>
+    </div>
+</body>
+
+</html>

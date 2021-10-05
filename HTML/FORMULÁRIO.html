@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formulário</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<form action="demo_form.asp">
+			Nome: <input type="text" name="nome" value="Digite o seu nome"><br>
+			Sobrenome: <input type="text" name="sobrenome" value="Digite o seu sobrenome"><br>
+			<input type="Submit" value="Confirmar">
+		</form>
+		<br>
+		<form action="demo_form.asp">
+			User: <input type="text" name="nome" value="User"><br>
+			Senha: <input type="password" name="sobrenome" value="Senha"><br>
+			<input type="button" value="Confirmar">
+		</form>
+		<br><br>
+		
+		<select>
+		<option value="Pudim">Pudim</option>
+		<option value="Chocolate">Chocolate</option>
+		<option value="Doce de Leite">Doce de Leite</option>
+		<option value="Sorvete">Sorvete</option>
+		</select>
+		<br><br>
+		
+		<select>
+			<optgroup label="Jogadores Brasileiros">
+				<option value="Neymar">Neymar</option>
+				<option value="Alisson">Alisson</option>
+				<option value="Everton Ribeiro">Everton Ribeiro</option>
+			</optgroup>
+			<optgroup label="Jogadores Espanhois">
+				<option value="Sérgio Ramos">Sérgio Ramos</option>
+				<option value="Asensio">Asensio</option>
+				<option value="Isco Alarcon">Isco Alarcon</option>
+			</optgroup>
+		</select>
+		<br><br>
+		
+		<textarea rows="5" cols="10">Digite seu texto aqui dentro
+		</textarea>
+		<br>
+		<textarea rows="5" cols="50">História (do grego antigo ἱστορία, transl.: historía, que significa "pesquisa", "conhecimento advindo da investigação")[1] é a ciência que estuda o ser humano e sua ação no tempo e no espaço concomitantemente à análise de processos e eventos ocorridos no passado. O termo "História" também pode significar toda a informação do passado arquivada em todas as línguas por todo o mundo, por intermédio de registos históricos. A palavra história tem sua origem nas investigações de Heródoto; em grego antigo, o termo "História" é Ἱστορίαι (Historíai).
+		</textarea>
+		<br><br>
+		
+		<p> Marque a opção correspondente ao seu sexo.</p>
+		
+		<form action="demo_form.asp">
+			<label for="Masculino">Masculino</label>
+			<input type="radio" name="sexo" id="Masculino" value="Masculino"></input><br>
+			<label for="Feminino">Feminino</label>
+			<input type="radio" name="sexo" id="Feminino" value="Feminino"></input>
+			<br><br>
+			<input type="Submit" value="Confirmar"></input>
+		</form>
+		<br>
+		
+		<form>
+			<fieldset>
+				<legend>Inscrição:</legend>
+				Nome: <input type="text"><br>
+				Email: <input type="text"><br>
+				Endereço: <input type="text">
+				<input type="Submit" value="Enviar"></input>
+			</fieldset>
+		</form>
+		<br>
+		
+		<a href="http://www.google.com" tabindex="2">Google</a><br>
+		<a href="http://www.facebook.com" tabindex="1">Facebook</a><br>
+		<a href="http://www.uol.com" tabindex="3">Uol</a><br>
+		<br><br>
+		
+		<a href="http://www.bol.com" accesskey="b">Bol</a><br>
+		<a href="http://www.gmail.com" accesskey="g">Gmail</a><br>
+		<a href="http://www.americanas.com" accesskey="a">Americanas</a><br>
+		
+		<!--"select" é para criar a seleção,"option" é o item pra ser selecionado,"optgroup" é para cria um subgrupo dos itens 
+		"form" serve para iniciar um formulário,"input" é para inserir as informações no formulário
+		"textarea" serve para criar uma area de texto,"rows" e "cols" define as linhas e as colunas respectivamente
+		"label permite criar" opções de marcação ao lado do texto como por exemplo botões do tipo "radio"
+		"tabindex" serve para selecionar a ordem de navegação através do TAB do teclado,"accesskey" serve para acessar um local através de uma tecla-->
+	</body>
+</html>

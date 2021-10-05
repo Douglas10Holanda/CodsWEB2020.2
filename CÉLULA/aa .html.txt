@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Douglas e Yuri</title>
+
+    <style type="text/css">
+      header {
+        border: 2px solid rgb(138, 115, 115);
+      }
+
+      nav {
+        border: 2px solid black;
+      }
+
+      .contPagina {
+        border: 2px solid red;
+      }
+
+      footer {
+        border: 2px solid black;
+      }
+
+      header img {
+          width: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+        <img src="http://www.pngall.com/wp-content/uploads/2016/05/Game-of-Thrones-Logo-Free-Download-PNG.png" alt="logo">
+    </header>
+    <nav>home Postagens Calculo de Horas Cadastro</nav>
+    <div id="conteudo" class="contPagina">div de conteudo</div>
+    <div class="contPagina">
+      div de conteudo 2 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Officia doloribus pariatur voluptates maxime, saepe culpa. Sit, laborum
+      fugit, nam aliquid quasi sequi, quam necessitatibus quibusdam tenetur
+      explicabo rem repellendus aspernatur.
+    </div>
+    <footer class="rodape">Rodapé</footer>
+  </body>
+</html>

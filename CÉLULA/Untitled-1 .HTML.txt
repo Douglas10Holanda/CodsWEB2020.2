@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html> lang="PT-BR">
+  <head>
+    <meta charset="utf-8">
+    <title>Douglas Holanda</title>
+
+  </head>
+  <body>
+    
+    <header class="header">
+         <nav class="navigation">
+            <section class="navigation_icon">
+                <span class= "topbar"></span>
+                <span class= "middlebar"></span>
+                <span class= "bottombar"></span>
+            </section>
+            
+            <ul class="navigation_ul">
+                <li><a <href=""HOME</a></li>
+                <li><a <href=""GALLERY</a></li>
+                <li><a <href=""TEAM</a></li>
+                <li><a <href=""CLIENT</a></li>
+                <li><a <href=""FAQ</a></li>
+
+
+        </nav>
+
+
+
+    </header>
+
+
+
+
+  </body>
+</html>
