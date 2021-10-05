@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url(Imagem/img10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+#container {
+    width: min(90vw, 500px);
+    margin: auto;
+    margin-bottom: 3rem;
+    font-family: 'Arial';
+}
+
+header {
+    padding: 2rem 0rem  1rem 0rem;
+    text-align: center;
+}
+
+header h2 {
+    color: #e7e6eb;
+    font-style: italic;
+}
+
+header h4 {
+    color: #e7e6eb;
+    font-size: small;
+    font-family:cursive;
+}
+
+h4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.information {
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 10px;
+}
+
+select {
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0px 0px 0px 10px;
+    color: #5a5a5a;
+}
+
+textarea {
+    padding: 10px 0px 0px 10px;
+    width: 100%;
+}
+
+.option {
+    margin-bottom: 0.5rem;
+}
+
+.multiple-choices {
+    margin-bottom: 0.5rem;
+}
+
+#card {
+    border-radius: 0.25rem;
+    background-color: #282948cb;
+    padding: 1.5rem 2rem;
+    border: 0.5px;
+}
+#card h4 {
+    color: #e7e6eb;
+}
+
+#card label {
+    color: #e7e6eb;
+}
+
+.button {
+    color: white;
+    background-color: #37AF65;
+    text-decoration: none;
+    height: 45px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button:hover {
+    background-color: #47e283;
+}
